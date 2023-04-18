@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+ name: demo1
+ annotations:
+   github.com/project-slug: exampleOrg/demo1
+ tags:
+   - 
+spec:
+ type: service
+ lifecycle: production
